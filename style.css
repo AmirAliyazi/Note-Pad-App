@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.note{
+    display: flex;
+}
+
+.note-sidebar{
+    height: 100vh;
+    width: 250px;
+    padding: 2rem;
+    background: linear-gradient(45deg , #1b1b23, #07072d);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /*row-gap: 20px;*/
+}
+
+.note--add-btn{
+    background-color: forestgreen;
+    outline: 0;
+    border: 0;
+    height: 40px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.note--logo{
+    font-size: 40px;
+}
+
+.note-content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: lightgray;
+    padding: 3rem;
+}
+
+.note--title{
+    height: 50px;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.note--body{
+    flex-grow: 1;
+    margin-top: 5rem;
+    resize: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.note--list-item--selected{
+    background-color: #818181;
+}
+
+.note--list-item{
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+
+.note--item-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.note--list-trash{
+    width: 34px;
+    height: 34px;
+    background: white;
+    border-radius: 100%;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.note--small-title{
+    width: 60%;
+}
+
+
